@@ -93,7 +93,7 @@ def free():
 def exeQry(self, myType, tabnm_or_sql, dataDic={}, force_mykeylist=[], IS_DEBUG=False, IS_PRINT=False, useColFilter=False, useDict=False, useDictLow=False):
 mydbapi3의 exeQry를 래핑한 함수입니다. 다만 내부적으로 thread pool의 슬롯을 사용하고 바로 반납합니다.
 
-
+===========================================================================================================================================================================
 
 class MyRemoteServ()
 설정되어 있는 다중서버간 데이터 동기화를 위해 쓰입니다.
